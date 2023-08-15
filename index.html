@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My_Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="R Logo Design.png">
+</head>
+<style>
+    .links{
+        position: relative;
+        color: rgb(200, 200, 200);
+        text-decoration: none;
+        font-family: serif;
+        font-size: 20px;
+        padding-right: 40px;
+        padding-left: 2px;
+    }
+    nav a:after{
+        content: "";
+        position: absolute;
+        background-color: rgb(61, 47, 7);
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.3s;
+    }
+    nav a:hover{
+        color: rgb(255, 255, 255);
+    }
+    nav a:hover:after{
+        width: 80%;
+    }
+    #two{
+        margin-left: 40%;
+        padding-right: 50px;
+        
+    }
+    .block:hover{
+        background-color: rgb(92, 45, 12);
+        
+        
+    }
+    .block{
+        margin-top: 50px;
+        padding: 10px;
+        margin-left: 42.5%;
+        color: aliceblue;
+        block-size: 50px;
+        text-decoration: none;
+        border: solid 5px rgb(0, 0, 0);
+        background-color: saddlebrown;
+        border-radius: 50px;
+        
+    }
+    h1{
+        box-sizing: border-box;
+        font-size: 5vw;
+        margin-left: 100px;
+        margin-right: 0;
+        margin-top: -10px;    
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 5vh;
+    }
+    h1{
+        position: relative;
+        color: #7D7463;
+        -webkit-text-stroke: 0.3vw  #766e5e;
+        text-transform: uppercase;
+        
+    }
+    h1::before{
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 125px;
+        width: 0;
+        height: 100%;
+        color: black;
+        -webkit-text-stroke: 0vw rgb(58, 58, 58);
+        border-right:2px solid black;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: animate 6s linear infinite;
+    }
+    @keyframes animate
+    {
+       0%,10%,100%
+       {
+        width: 0;
+       }
+       70%,90%{
+        width: 83%;
+       }
+    }
+    #four{
+        margin-left: 42%;
+        margin-right: 41%;
+        margin-bottom: 20px;
+        
+        
+    }
+    #four{
+        border: 3px #7d7467 solid;
+        border-radius: 250px;
+        box-shadow: 5px 10px 10px black;
+        
+    }
+    
+
+</style>
+<body bgcolor="#7D7463"><br>
+    
+    <h3 align = "center">
+    <img src="sketch1690946404701.png" alt="" height="75px" width="300px" align="left">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div>
+        <div id="two">
+        <nav>
+            <a href="project_about_me.html" class="links">ABOUT_ME</a>
+            <a href="project_education.html" class="links">EDUCATION</a>
+            <a href="project_project.html" class="links">PROJECTS</a>
+            <a href="project_certi.html" class="links">CERTIFICATES</a>
+            <a href="project_contact.html" class="links">CONTACT_ME</a>
+        </nav>
+        </div>
+    
+    </div>
+    </h3>
+    <br><br><br><br><br><br>
+    <h1 data-text="WELCOME TO MY PORTFOLIO">WELCOME TO MY PORTFOLIO</h1>
+    <div id="four">
+    <img src="design.png" height="255px" width="250px" ></div><br><br>
+    <font size="6" >
+       <a href="project_about_me1.html" class="block">GET STARTED</a>
+        
+    </font>
+
+</body>
+</html>

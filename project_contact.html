@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact_Me</title>
+    <link rel="icon" type="image/x-icon" href="R Logo Design.png">
+</head>
+<style>
+    #one{
+       
+        text-align: center;
+        height: 55px;
+        margin-left: 42%;
+        margin-right: 43%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 13px;
+        border: solid 5px black;
+        border-radius:30px;
+        box-shadow: 5px 10px 10px black;
+        background-color: #615a4c;
+    }
+    #two{
+        color: black;
+        padding: 50px;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 50px;
+        margin-left: 40%;
+        margin-right: 42%;
+        
+        
+    }
+    #two{
+        border: 5px solid black;
+        border-radius: 40px;
+        box-shadow: 10px 20px 20px black;
+        background-color: #615a4c;
+    }
+    #three button{
+        cursor: pointer;
+        font-size: 25px;
+        font-family: serif;
+        margin-left: 45.5%;
+        position: relative;
+        border: none;
+        width: 95px;
+        height: 55px;
+        background-color: #766d5c;
+        color: rgb(0, 0, 0);
+        border-radius: 30px;
+        border: 2px solid black;
+        box-shadow: 10px 5px 10px black;
+        overflow: hidden;
+    }
+    #three button:hover{
+        background-color: #615a4c;
+    }
+</style>
+<body bgcolor="#7D7463" >
+<div id="one">
+    <h1>CONTACT_ME</h1></div>
+    
+    <div id="two">
+    <form action="form1-action.html">
+        <b><label for="name">Name</label>
+        <input type="text" required id="name" name="name">
+        <br>
+        <label for="number">Number</label>
+        <input required type="number" name="number" id="number">
+        <br>
+        <label for="email">Email</label>
+        <input  required type="email" name="email" id="email">
+        <br>
+        <label for="msg">Message</label></b>
+        <input placeholder="write your message" required type="text" name="msg" id="msg"></div><br><br>
+        <div id="three"><button onclick="SubmitEvent">Submit</button></div>
+    </form>
+</body>
+</html>
